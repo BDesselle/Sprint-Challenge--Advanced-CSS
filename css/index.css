@@ -164,6 +164,9 @@ p {
   width: 100%;
   background-color: #F6F6F6;
   border-bottom: #F1F1F1;
+  position: sticky;
+  top: 0;
+  opacity: 0.9;
 }
 .nav-section .nav-container {
   width: 100%;
@@ -192,15 +195,19 @@ p {
 }
 .nav-section .nav-container nav {
   width: 100%;
+  padding: 0.5rem;
 }
 .nav-section .nav-container nav a {
   text-decoration: none;
   font-size: 1.6rem;
   color: #454A59;
   font-weight: bolder;
-  padding: 1.5rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
 }
 .nav-section .nav-container nav a:hover {
+  color: #F6F7F8;
+  background-color: #22283A;
   box-shadow: 0 1.2rem 1.6rem 0 rgba(0, 0, 0, 0.24), 0 1.7rem 5rem 0 rgba(0, 0, 0, 0.19);
 }
 footer {
@@ -305,7 +312,7 @@ footer {
   text-align: center;
 }
 .home .walk .walk-text .btn:hover {
-  background-color: white;
+  background-color: #F6F7F8;
   color: #22283A;
   box-shadow: 0 1.2rem 1.6rem 0 rgba(0, 0, 0, 0.24), 0 1.7rem 5rem 0 rgba(0, 0, 0, 0.19);
 }
