@@ -85,13 +85,16 @@
       p {
         margin-bottom: 2.6rem;
       }//p
-      .btn {
-        .btn-style(@btn-bg-color, 100px, 10px);
-        @media @phone {
-          width: 100%;
-          padding: 2.5rem;
-        }//@media
-      }//.btn
+      .button {
+        text-decoration: none;
+        .btn {
+          .btn-style(@btn-bg-color, 100px, 10px);
+          @media @phone {
+            width: 100%;
+            padding: 2.5rem;
+          }//@media
+        }//.btn
+      }//.button
     }//.walk-text
     .walk-img {
       width: 46%;

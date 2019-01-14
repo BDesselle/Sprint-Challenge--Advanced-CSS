@@ -230,7 +230,6 @@ p {
 .nav-section .nav-container nav a:hover {
   color: #F6F7F8;
   background-color: #22283A;
-  box-shadow: 0 1.2rem 1.6rem 0 rgba(0, 0, 0, 0.24), 0 1.7rem 5rem 0 rgba(0, 0, 0, 0.19);
 }
 footer {
   color: #22283B;
@@ -323,7 +322,10 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 2.6rem;
 }
-.home .walk .walk-text .btn {
+.home .walk .walk-text .button {
+  text-decoration: none;
+}
+.home .walk .walk-text .button .btn {
   border-radius: 0.5rem;
   background-color: #22283A;
   width: 100px;
@@ -333,13 +335,13 @@ footer {
   font-size: 1.6rem;
   text-align: center;
 }
-.home .walk .walk-text .btn:hover {
+.home .walk .walk-text .button .btn:hover {
   background-color: #F6F7F8;
   color: #22283A;
   box-shadow: 0 1.2rem 1.6rem 0 rgba(0, 0, 0, 0.24), 0 1.7rem 5rem 0 rgba(0, 0, 0, 0.19);
 }
 @media ( max-width: 500px ) {
-  .home .walk .walk-text .btn {
+  .home .walk .walk-text .button .btn {
     width: 100%;
     padding: 2.5rem;
   }
@@ -359,4 +361,66 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 1rem;
+}
+.form-div {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+.form-div header img {
+  border-radius: 0.5rem;
+  width: 100%;
+}
+@media ( max-width: 500px ) {
+  .form-div header img {
+    width: 100%;
+  }
+}
+.form-div .intro h2 {
+  padding: 1.5rem;
+  margin: 2.5%;
+  text-align: center;
+}
+.form-div .sub-section {
+  display: flex;
+  justify-content: none;
+  align-items: none;
+  flex-direction: column;
+  width: 100%;
+  height: 130rem;
+}
+.form-div .sub-section .form {
+  display: flex;
+  justify-content: none;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 1%;
+}
+.form-div .sub-section .form label {
+  font-size: 1.6rem;
+}
+.form-div .sub-section .form select {
+  width: 16.4rem;
+  height: 2rem;
+}
+.form-div .sub-section .form .button {
+  display: flex;
+  justify-content: none;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #454A59;
+  font-weight: bolder;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin: 0 auto;
+  flex-direction: column;
+  text-align: center;
+  width: 10rem;
+  background-color: #F6F7F8;
+  border: #F6F7F8;
+}
+.form-div .sub-section .form .button:hover {
+  color: #F6F7F8;
+  background-color: #22283A;
 }

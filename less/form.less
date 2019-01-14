@@ -1,0 +1,49 @@
+.form-div {
+    max-width: 80.0rem;
+    .margin-auto(0; auto);
+    header {
+        img {
+          border-radius: 0.5rem;
+          width: 100%;
+          @media @phone {
+            width: 100%
+          }//@media
+        }//Image
+      }//Header-Image
+      .intro {
+        h2 {
+          padding: 1.5rem;
+          margin: 2.5%;
+          text-align: center;
+        }//h2
+      }//.intro
+    .sub-section {
+        .flex(none; none);
+        flex-direction: column;
+        width: 100%;
+        height: 130.0rem;
+        .form {
+            .flex(none; center);
+            flex-direction: column;
+            text-align: center;
+            margin: 1%;
+            label {
+                font-size: 1.6rem;
+            }//label
+            select {
+                width: 16.4rem;
+                height: 2.0rem;
+            }//select
+            .button {
+                .flex(none; center);
+                .a-style();
+                .margin-auto(0; auto);
+                flex-direction: column;
+                text-align: center;
+                width: 10.0rem;
+                background-color: @porcelain;
+                border: @porcelain;
+            }//Submit (Actually Resets, didn't want to do a whole new page for "thanks for submitting")
+        }//.form
+    }//.sub
+}//.form-div
