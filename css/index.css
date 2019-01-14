@@ -231,6 +231,11 @@ p {
   color: #F6F7F8;
   background-color: #22283A;
 }
+@media ( max-width: 500px ) {
+  .nav-section .nav-container nav a {
+    font-size: 1.5rem;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -386,7 +391,12 @@ footer {
   align-items: none;
   flex-direction: column;
   width: 100%;
-  height: 130rem;
+  height: 77.5rem;
+}
+@media ( max-width: 500px ) {
+  .form-div .sub-section {
+    height: 42rem;
+  }
 }
 .form-div .sub-section .form {
   display: flex;
@@ -423,4 +433,9 @@ footer {
 .form-div .sub-section .form .button:hover {
   color: #F6F7F8;
   background-color: #22283A;
+}
+@media ( max-width: 500px ) {
+  .form-div .sub-section .form .button {
+    font-size: 1.5rem;
+  }
 }
