@@ -42,6 +42,18 @@ Edit this document to include your answers after each question. Make sure to lea
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
+<!--Answers-->
+
+1. The difference between adaptive and fully responsive websites is that adaptive designs adapt to the browser at specific points, responsive responds to the size of the browser at any given point. 
+
+2. From experience designing mobile first is more simple. It means you have mobile users in mind more than desktop users. This helps with the flow of design and makes it easier to create for mobile. 
+
+3. Basically setting font-size: 62.5% in the html tag selector makes 1rem(1.0) eaqual to 10px.
+
+4. It improves the reusability of old code (variables/mixins) and makes maintainence alot easier. Looks cleaner in my opinion. 
+
+5. I really appreciate the nesting aspect of less, the thing I had the most trouble with was nesting to be honest. I didn't have my inheretance thinking down pat just yet.
+
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
